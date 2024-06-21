@@ -2,19 +2,12 @@
 float main ()
 {
     float prestacao, valor, taxa, tempo;
-
     printf ("escreva o valor da prestaçao: ");
     scanf("%f", &prestacao);
-
     printf("escreva o valor da taxa: ");
     scanf("%f", &valor);
-
     printf("escreva o tempo do seu emprestivo: ");
     scanf("%f", &tempo);
-
     prestacao=valor+(valor*(taxa/100)*tempo);
     printf("%.5f",prestacao);
-
-
-
 }
