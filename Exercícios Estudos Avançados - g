@@ -4,31 +4,31 @@ int main ()
 float a, b, c, d, um, dois, tres, quatro, cinco, seis, sete, oito, nove, dez, onze, doze;
 
 printf("escreva um valor para a: ");
-scanf("%d", &a);
+scanf("%f", &a);
 
 printf("escreva um valor para b: ");
-scanf("%d", &b);
+scanf("%f", &b);
 
 printf("escreva um valor para c: ");
-scanf("%d", &c);
+scanf("%f", &c);
 
 printf("escreva um valor para d: ");
-scanf("%d", &d);
+scanf("%f", &d);
 
-a+b=um;
-a+c=dois;
-a+d=tres;
-b+c=quatro;
-b+d=cinco;
-c+d=seis;
-a*b=sete;
-a*c=oito;
-a*d=nove;
-b*c=dez;
-b*d=onze;
-c*d=doze;
+    um = a + b;
+    dois = a + c;
+    tres = a + d;
+    quatro = b + c;
+    cinco = b + d;
+    seis = c + d;
+    sete = a * b;
+    oito = a * c;
+    nove = a * d;
+    dez = b * c;
+    onze = b * d;
+    doze = c * d;
 
-printf("a+b= %.f\n  a+c= %.f\n  a+d= %.f\n  b+c= %.f\n  b+d= %.f\n  c+d= %.f\n  a*b= %.f\n  a*c= %.f\n  a*d= %.f\n  b*c= %.f\n  b*d= %.f\n  c*d= %.f\n", um, dois, tres, quatro, cinco, seis, sete, oito, nove, dez, onze, doze);
+printf("  a+b= %.f\n  a+c= %.f\n  a+d= %.f\n  b+c= %.f\n  b+d= %.f\n  c+d= %.f\n  a*b= %.f\n  a*c= %.f\n  a*d= %.f\n  b*c= %.f\n  b*d= %.f\n  c*d= %.f\n", um, dois, tres, quatro, cinco, seis, sete, oito, nove, dez, onze, doze);
 
 return 0;
 }
