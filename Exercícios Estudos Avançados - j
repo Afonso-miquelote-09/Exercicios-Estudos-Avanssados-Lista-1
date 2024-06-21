@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main ()
+{
+int a, b, aux;
+printf("insira um valor para a: ");
+scanf("%d", a);
+printf("insira um valor para b: ");
+scanf("%d", b);
+aux = (a-b)*(a-b);
+printf("%.5d", aux);
+}
