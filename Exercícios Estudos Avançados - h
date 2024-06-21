@@ -15,4 +15,5 @@ scanf("%f", &largura);
 
 volume=comprimento*altura*largura;
 
-printf("o volume da caixa eh 
+printf("o volume da caixa eh %.5f", volume);
+}
