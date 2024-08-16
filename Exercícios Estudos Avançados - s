@@ -17,14 +17,14 @@ int main()
 
     if (B != 0) {
         divisao = A / B;
-        printf("Divisão de A por B: %.2f\n", divisao);
+        printf("Divisao de A por B: %.2f\n", divisao);
     } else {
-        printf("Divisão por zero não é possível.\n");
+        printf("Divisao por zero nao eh possivel.\n");
     }
 
     printf("Soma de A e B: %.2f\n", soma);
-    printf("Subtração de A por B: %.2f\n", subtracao);
-    printf("Multiplicação de A por B: %.2f\n", multiplicacao);
+    printf("Subtrassao de A por B: %.2f\n", subtracao);
+    printf("Multiplicassao de A por B: %.2f\n", multiplicacao);
 
     return 0;
 }
