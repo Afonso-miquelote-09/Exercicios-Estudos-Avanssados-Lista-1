@@ -5,10 +5,10 @@ int main()
     float distancia_km, tempo_minutos;
     float velocidade_ms;
 
-    printf("Informe a distância percorrida pelo projétil (em quilômetros): ");
+    printf("Informe a distancia percorrida pelo projetil (em quilometros): ");
     scanf("%f", &distancia_km);
 
-    printf("Informe o tempo gasto pelo projétil (em minutos): ");
+    printf("Informe o tempo gasto pelo projetil (em minutos): ");
     scanf("%f", &tempo_minutos);
 
     float distancia_metros = distancia_km * 1000;
@@ -16,7 +16,7 @@ int main()
 
     velocidade_ms = distancia_metros / tempo_segundos;
 
-    printf("A velocidade do projétil é de %.2f metros por segundo.\n", velocidade_ms);
+    printf("A velocidade do projetil e de %.2f metros por segundo.\n", velocidade_ms);
 
     return 0;
 }
