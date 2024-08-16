@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     float SM, PR, NS;
 
     printf("Informe o valor do salario mensal: ");
